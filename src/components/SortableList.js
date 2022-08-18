@@ -1,7 +1,16 @@
 import { useState } from "react";
 
 const SortableList = () => {
-  const [sports, setSports] = useState(["Football","Basketball","Baseball","Soccer","Hockey","Running","Chess","Karate","Kungfu",
+  const [sports, setSports] = useState([
+    "Football",
+    "Basketball",
+    "Baseball",
+    "Soccer",
+    "Hockey",
+    "Running",
+    "Chess",
+    "Karate",
+    "Kungfu",
   ]);
   const [dragItemIndex, setDragItemIndex] = useState();
   const [dragOverItemIndex, setDragOverItemIndex] = useState();
